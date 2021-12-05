@@ -36,12 +36,13 @@ window.addEventListener('scroll', checkFullCard);
 checkFullCard();
 function checkFullCard() {
     const triggerBottom = window.innerHeight / 5 * 4;
-    fullCard.forEach(fullCard => {
-        const fullCardTop = fullCard.getBoundingClientRect().top;
+    fullCard.forEach(fc => {
+        const fullCardTop = fc.getBoundingClientRect().top;
+        // console.log(fullCardTop);
         if(fullCardTop < triggerBottom){
-            fullCard.classList.add('.showFullCard')
+            fc.classList.add('showFullCard')
         } else {
-            fullCard.classList.remove('showFullCard')
+            fc.classList.remove('showFullCard')
         }
     })
 }
