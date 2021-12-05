@@ -30,4 +30,18 @@ function checkH2() {
     })
 }
 
-// Instructor Box Animation
+// Instructor Card Animation
+const fullCard = document.querySelectorAll('.fullCard');
+window.addEventListener('scroll', checkFullCard);
+checkFullCard();
+function checkFullCard() {
+    const triggerBottom = window.innerHeight / 5 * 4;
+    fullCard.forEach(fullCard => {
+        const fullCardTop = fullCard.getBoundingClientRect().top;
+        if(fullCardTop < triggerBottom){
+            fullCard.classList.add('.showFullCard')
+        } else {
+            fullCard.classList.remove('showFullCard')
+        }
+    })
+}
