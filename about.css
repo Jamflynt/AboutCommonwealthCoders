@@ -112,20 +112,6 @@ h1 {
     color: #fff;
 }
 
-/* Full Card Animation */
-.largeCard {
-    transform: translateX(300%);
-    transition: transform 0.8s ease;
-}
-
-.largeCard:nth-of-type(even) {
-    transform: translateX(-300%);
-}
-
-.showFullCard {
-    transform: translateX(0);
-}
-
 /* Instructor Specific */
 .instructorGrid {
     display: grid;
