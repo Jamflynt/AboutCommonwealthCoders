@@ -44,6 +44,10 @@ h1 {
     transition: opacity 0.6s ease;
 }
 
+p {
+    font-weight: 300;
+}
+
 /* h2 Fade Animation */
 .aniH2.showH2 {
     opacity: 1;
@@ -168,6 +172,14 @@ a:visited {
     padding: 20px;
 }
 
+.expect {
+    background-color: var(--green);
+}
+
+.expect-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+}
 
 
 footer {
