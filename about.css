@@ -143,6 +143,7 @@ a:visited {
     border-radius: 10px;
     box-shadow: 2px 4px 5px rgb(0, 0, 0, 0.3);
     color: #fff;
+    overflow-y: hidden;
 }
 
 /* Instructor Specific */
@@ -154,7 +155,6 @@ a:visited {
 .instructors {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
