@@ -29,10 +29,16 @@ body {
     margin: 10px 0;
 }
 
+h1 {
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
 /* Split Cards */
 .aniH2 {
     font-size: 40px;
-    color: white;
+    color: #fff;
     margin-bottom: 20px;
     text-align: center;
     opacity: 0.0;
