@@ -5,4 +5,4 @@ Built using HTML, CSS, and JavaScript. Mobile friendly.
 
 Custom logo and artwork done by myself (Jamie Flynt)
 
-Note: Links in footer are specfici to the Barron County region
+Note: Links in footer are specific to the Barron County region
